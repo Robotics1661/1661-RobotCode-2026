@@ -1,0 +1,61 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 13.0,
+        "y": 7.43625
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 11.980454545454545,
+        "y": 7.43625
+      },
+      "isLocked": false,
+      "linkedName": "Red Right 0"
+    },
+    {
+      "anchor": {
+        "x": 8.7235,
+        "y": 7.43625
+      },
+      "prevControl": {
+        "x": 9.568659090909094,
+        "y": 7.425943181818181
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Red Right 1"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "ShootPreloaded",
+      "waypointRelativePos": 1.0,
+      "endWaypointRelativePos": null,
+      "command": null
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.5,
+    "maxAngularVelocity": 360.0,
+    "maxAngularAcceleration": 540.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 90.0
+  },
+  "reversed": false,
+  "folder": "Red_right",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

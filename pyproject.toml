@@ -1,0 +1,29 @@
+[tool.robotpy]
+robotpy_version = "2026.2.1.1"
+
+deps = [
+    "robotpy-commands-v2",
+    "phoenix6",
+]
+
+
+components = [
+    # "all",
+    # "apriltag",
+    "commands2",
+    # "cscore",
+    # "romi",
+    # "sim",
+    # "xrp",
+]
+
+# Other pip packages to install (including vendor packages)
+requires = [
+    "phoenix6~=26.1",
+    # "photonlibpy",
+    # "robotpy-ctre",  # Phoenix 5
+    # "robotpy-navx",
+    "robotpy-pathplannerlib",
+    # "robotpy-playingwithfusion",
+    # "robotpy-rev",
+]
